@@ -1,0 +1,83 @@
+.custom-payment-image {
+    width: 200px !important;
+    height: 200px !important;
+
+	border: 5px solid #000000 !important;
+	filter: drop-shadow(-5px 6px 8px rgba(0, 0, 0, 0.4)) !important;
+    -webkit-filter: drop-shadow(-5px 6px 8px rgba(0, 0, 0, 0.4)) !important; 
+	max-height: 100% !important;
+}
+.custom-payment-input {
+    color: #ffffff !important;
+	text-shadow: -5px 6px 8px rgba(0, 0, 0, 0.4) !important;
+	padding-bottom: 10px;
+}
+
+.payment_method_qr_pay_gateway{
+	/* background-color: rgb(114, 73, 164) !important; */
+	color: rgb(0, 0, 0) !important;
+}
+.payment_method_qr_pay_gateway div.payment_box::before{
+	border-right-color: transparent !important;
+	border-left-color: transparent !important;
+	border-top-color: transparent !important;
+	filter: drop-shadow(-5px 6px 8px rgba(0, 0, 0, 0.4)) !important;
+    -webkit-filter: drop-shadow(-5px 6px 8px rgba(0, 0, 0, 0.4)) !important; 
+}
+li.payment_method_qr_pay_gateway label img {
+	filter: drop-shadow(-5px 6px 8px rgba(0, 0, 0, 0.4)) !important;
+    -webkit-filter: drop-shadow(-5px 6px 8px rgba(0, 0, 0, 0.4)) !important; 
+	width: 30px;
+}
+li.payment_method_qr_pay_gateway label {
+    color: rgb(0, 0, 0) !important;
+	text-shadow: -5px 6px 8px rgba(0, 0, 0, 0.4) !important;
+	padding-top:5px;
+}
+#custom_input .custom-pay-name-input, #custom_input .custom-mobile-number-input, #custom_input .custom-mobile-number-input{
+	filter: drop-shadow(-5px 6px 8px rgba(0, 0, 0, 0.4)) !important;
+    -webkit-filter: drop-shadow(-5px 6px 8px rgba(0, 0, 0, 0.4)) !important; 
+	width: 100% !important;
+}
+.custom-payment-image-container{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.custom-payment-image-container h3{
+	color: rgb(0, 0, 0) !important;
+}
+.qr-image-download-button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 20px 5px 20px;
+	color:  white !important;
+	background-color:rgb(14, 113, 244) !important;
+	border: none !important;
+	width: auto;
+	border-radius: 5px;
+	text-decoration: none;
+
+	
+}
+.qr-image-download-button:hover{
+	color: rgb(14, 113, 244) !important;
+	background-color: white !important;
+	border-radius: 5px;
+}
+
+#payment_method_qr_pay_gateway {
+    /* transform: scale(1); */
+	filter: drop-shadow(-5px 6px 8px rgba(0, 0, 0, 0.4)) !important;
+    -webkit-filter: drop-shadow(-5px 6px 8px rgba(0, 0, 0, 0.4)) !important; 
+}
+span.requiredqr {
+    color: rgb(0, 0, 0);
+	text-shadow: -5px 6px 8px rgba(0, 0, 0, 0.4) !important;
+}
+span.optionalqr{
+	font-size: 10px;
+	vertical-align: top;
+}
